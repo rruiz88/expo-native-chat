@@ -1,0 +1,29 @@
+{
+  "expo": {
+    "name": "Wired Brain Chat",
+    "description": "Online message board for coffee lovers",
+    "slug": "native-chat",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/wired-brain-icon.png",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "image": "./assets/wired-brain-coffee-logo.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "assetBundlePatterns": ["**/*"],
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#ffffff"
+      }
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    }
+  }
+}
